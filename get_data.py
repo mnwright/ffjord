@@ -3,7 +3,7 @@ import numpy as np
 import datasets
 
 # bsds300
-dat = datasets.BDS300()
+dat = datasets.BSDS300()
 
 np.savetxt('data_export/bsds300_trn.csv', dat.trn.x, delimiter=",")
 np.savetxt('data_export/bsds300_tst.csv', dat.tst.x, delimiter=",")
